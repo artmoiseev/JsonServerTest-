@@ -16,7 +16,7 @@ class MakingHttpRequestsTask():
         self.session = self._requests_retry_session()
         self.items_count = items_count
 
-    def make_and_save_request(self):
+    def make_and_save_requests(self):
         for item in self.items_count:
             requestId = 1
             while True:

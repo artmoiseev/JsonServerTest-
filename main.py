@@ -10,7 +10,7 @@ ITEM_COUNT = {
     'comments': 500}
 
 task1 = Task1.MakingHttpRequestsTask(ITEM_COUNT)
-task1.make_and_save_request()
+task1.make_and_save_requests()
 
 Task2And3.task2()
 Task2And3.task3()
